@@ -1,0 +1,16 @@
+1.no of cores in machine 
+>>  nproc --all
+
+2.determine process info 
+>>  cat /proc/<pid>/status
+
+3.cpu info 
+>> cat /proc/cpuinfo
+
+	or (inshort)
+>> lscpu
+
+4.kernel's system-wide limit on the number of threads
+>> cat /proc/sys/kernel/threads-max
+
+5. 
